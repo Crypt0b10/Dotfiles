@@ -1,0 +1,56 @@
+Theme
+1. CTRL + WIN + K
+2. Type "Configure", opens up 2 notepads.
+3. Edit the "Read-Only" file on the left with the following theme:
+
+[theme/Winblows]
+opacity_back = 97
+satellite_show = always
+satellite_pos = topcenter
+satellite_size = large
+control_margin = 3
+textbox_padding = 1
+listitem_padding = 1
+layout = list_icon,list_selmark,list_actions
+color_background = #052429
+color_foreground = #FFEAEA
+color_title = #FFEAEA
+color_textbox_back = #052429
+color_faded = #aeb9c4
+color_status = #FFEAEA
+color_accent = #FFEAEA
+color_warn = #cf433e
+color_listitem_back = #052429
+color_listitem_title = #FFEAEA
+color_listitem_desc = rgba(255, 234, 234, 0.39)
+color_listitem_tips = #FFEAEA
+color_listitem_selected_back = #052429
+color_listitem_selected_title = #FFD9D9
+color_listitem_selected_desc = rgba(255, 217, 217, 0.86)
+color_listitem_selected_tips = #FFD9D9
+font_large_size = 18
+font_large_style = bold
+font_snormal_size = 10
+font_snormal_style = cleartype
+font_normal_size = 12
+font_normal_style = cleartype
+font_small_size = 10
+font_small_style = cleartype
+font_face = OpenSans-Semibold,Arial,Segoe UI
+compact_results = yes
+listitem_title_font = snormal
+
+4. Edit the use file on the right hand side with:
+
+[gui]
+theme = Winblows
+
+5. Save
+
+Fix Catalog
+1. CTRL + WIN + K
+2. Right click --> Configure Package --> Bookmarks
+4. Past into file on right side:
+
+[provider/Firefox]
+enable = no
